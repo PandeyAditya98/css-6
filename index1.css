@@ -1,0 +1,100 @@
+body
+{
+    background-color: chartreuse;
+}
+h1
+{
+    margin-left: 650px;
+}
+li
+{
+    margin-left: 600px;
+}
+.box1
+{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    margin: 20px;
+    transition: width 3s;
+}
+.box1:hover
+{
+    width: 300px;
+}
+.box2
+{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    margin: 20px;
+    transition: width 3s,height 3s;
+}
+.box2:hover
+{
+    width: 300px;
+    height: 300px;
+}
+.box3
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: burlywood;
+    transition: width 3s linear;
+}
+.box3:hover
+{
+    width: 300px;
+}
+.box4
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: burlywood;
+    transition: width 3s ease-in;
+}
+.box4:hover
+{
+    width: 300px;
+}
+.box5
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: burlywood;
+    transition: width 3s ease-out;
+}
+.box5:hover
+{
+    width: 300px;
+}
+.box6
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: burlywood;
+    transition: width 3s ease;
+}
+.box6:hover
+{
+    width: 300px;
+}
+.box7
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: burlywood;
+    transition: width 3s ease-in-out;
+}
+.box7:hover
+{
+    width: 300px;
+}
+a{
+    margin-left: 650px;
+}

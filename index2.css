@@ -1,0 +1,146 @@
+body
+{
+    margin: 0px;
+}
+.container
+{
+    width: 100%;
+    height: 738px;
+    background-image: url(sky.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 10px;
+    box-sizing: border-box;
+    border-style: inset;
+    border-color: gray;
+}
+.heading
+{
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+span
+{
+    padding: 10px;
+}
+.sun
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes sun {
+    100%{
+        transform: translateX(-1000px);
+    }
+}
+.city
+{
+    height: 250px;
+    width: 500%;
+    background-image: url(city.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    top:200px;
+    z-index: 1;
+    animation-name: city-time;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+@keyframes city-time {
+    100%{
+        transform: translateX(-1500px);
+    }
+}
+.road
+{
+    height: 280px;
+    width: 500%;
+    display: block;
+    background-image: url(road.jpg);
+    position: absolute;
+    top: 450px;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation-name: road-time;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes road-time {
+    100%{
+        transform: translateX(-3000px);
+    }
+}
+.car
+{
+    width: 400px;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+.car1
+{
+    width: 100%;
+    animation-name: car-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+.carwheels
+{
+    left: 50%;
+    bottom: 178px;
+    position: absolute;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+.wheel1
+{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    left:-165px;
+    bottom: -60px;
+    animation-name: whel1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes whel1 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wheel2
+{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    left:80px;
+    bottom: -60px;
+    animation-name: whel2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes whel2 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
